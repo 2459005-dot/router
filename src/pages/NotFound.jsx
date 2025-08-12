@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Notfound = () => {
+const NotFound = () => {
     return (
         <section>
             <h1>잘못된 접근입니다.</h1>
@@ -8,4 +8,4 @@ const Notfound = () => {
     )
 }
 
-export default Notfound
+export default NotFound
