@@ -1,0 +1,26 @@
+footer {
+    color: #fff;
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+footer * {
+    color: #fff;
+}
+
+.sns-list {
+    display: flex;
+    gap: 10px;
+}
+
+.sns-list img{
+    height: 30px;
+}
+
+.sns-list li a {
+    display: flex;
+    align-items: center;
+}

@@ -8,6 +8,7 @@ import Home from './pages/Home'
 import BoardDetail from './pages/BoardDetail'
 import Community from './pages/Community'
 import CommunityDetail from './pages/CommunityDetail'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/community' element={<Community/>} />
         <Route path='/community/:id' element={<CommunityDetail/>} />
       </Routes>
+      <Footer/>
     </div>
   )
 }

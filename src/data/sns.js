@@ -1,0 +1,43 @@
+import icon1 from "../assets/icon1.png";
+import icon2 from "../assets/icon2.png";
+import icon3 from "../assets/icon3.png";
+import icon4 from "../assets/icon4.png";
+import icon5 from "../assets/icon5.png";
+
+export const snsLinks = [
+    {
+        id: 1,
+        name: "Instagram",
+        handle: "@your_instagram",
+        url: "https://instagram.com/your_instagram",
+        icon: icon1,        // 아이콘1 사용
+    },
+    {
+        id: 2,
+        name: "Facebook",
+        handle: "your.facebook",
+        url: "https://facebook.com/your.facebook",
+        icon: icon2,        // 아이콘2 사용
+    },
+    {
+        id: 3,
+        name: "X (Twitter)",
+        handle: "@your_x",
+        url: "https://x.com/your_x",
+        icon: icon3,        // 아이콘3 사용
+    },
+    {
+        id: 4,
+        name: "Github",
+        handle: "@your_Github",
+        url: "https://Github.com/",
+        icon: icon4,        // 아이콘3 사용
+    },
+    {
+        id: 5,
+        name: "Youtube",
+        handle: "@your_youtube",
+        url: "https://youtube.com/",
+        icon: icon5,        // 아이콘3 사용
+    },
+];
