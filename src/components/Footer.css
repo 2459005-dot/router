@@ -1,14 +1,21 @@
 footer {
     color: #fff;
-    background-color: #363636;
+    background-color: #ddd;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer * {
-    color: #fff;
+    color: #000;
+}
+
+footer h2 {
+    text-transform: uppercase;
 }
 
 .sns-list {

@@ -5,7 +5,7 @@ import { snsLinks } from '../data/sns'
 const Footer = () => {
   return (
     <footer>
-      <h2>Title</h2>
+      <h2>sns</h2>
       <ul className="sns-list">
         {snsLinks.map((sns) => (
           <li key={sns.id}>
