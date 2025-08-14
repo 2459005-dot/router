@@ -1,10 +1,13 @@
 import React from 'react'
+import HomeHero from './home/HomeHero'
 
 const Home = () => {
   return (
     <section>
-      <h1>Home</h1>
-      <p>홈 화면입니다.</p>
+      <h1>
+        Home
+      </h1>
+      <HomeHero />
     </section>
   )
 }

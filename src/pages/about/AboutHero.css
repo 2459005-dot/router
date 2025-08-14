@@ -1,0 +1,41 @@
+.swiper .swiper-slide a {
+    display: block;
+}
+
+.aboutHero .about-slide-card {
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutHero .t-wrap {
+    background-color: rgba(48, 194, 204, 0.575);
+    padding: 30px;
+    color: #fff;
+    opacity: 0;
+    transition: .2s .2s ease-in-out;
+    transform: translateY(50px);
+}
+
+.aboutHero .t-wrap h2 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.aboutHero .swiper-slide.swiper-slide-active .t-wrap {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.aboutHero .swiper-pagination-bullet {
+    background-color: brown;
+    border-radius: 0;
+    width: 30px;
+    height: 5px;
+}
