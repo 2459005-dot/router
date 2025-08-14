@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Community.css'
 
 export const posts = [
     {
@@ -42,9 +43,9 @@ export const posts = [
 const Community = () => {
 
     return (
-        <section>
+        <section className='Community'>
             <h1>게시글</h1>
-            <ul>
+            <ul className='list'>
                 {posts.map((p) => (
                     <li key={p.id}>
                         <Link to={`/community/${p.id}`}>

@@ -1,0 +1,55 @@
+.Community {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.Community h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #333;
+}
+
+.Community .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Community .list li {
+    padding: 12px 20px;
+    background-color: thistle; 
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+
+.Community .list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    display: block;
+}
+
+.Community .list li:hover {
+    background-color: #e0cfe0; 
+}
+
+.Community .list li a:hover {
+    color: #007bff;
+}
+
+.Community .list li .community-id {
+    font-weight: bold;
+    color: #555;
+}
+
+.Community .list li .community-subject {
+    font-weight: 500;
+}
